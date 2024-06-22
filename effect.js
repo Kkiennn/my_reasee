@@ -179,8 +179,8 @@ $('document').ready(function(){
 			if(i==73){
 				$("p:nth-child(72)").fadeOut('slow').promise().done(function () {
 					$('.cake').fadeIn('fast');
-					
-				});
+					$('.letter').fadeIn('fast');
+				});l
 				
 			}
 			else{
