@@ -1,5 +1,6 @@
 $(window).load(function(){
 	$('.loading').fadeOut('fast');
+	$('.letter').fadeOut('fast');
 	$('.container').fadeIn('fast');
 });
 $('document').ready(function(){
