@@ -1,7 +1,6 @@
 $('.arrow-button').fadeOut('fast');
 $(window).load(function(){
 	$('.loading').fadeOut('fast');
-	$('.arrow-button').fadeOut('fast');
 	$('.container').fadeIn('fast');
 });
 $('document').ready(function(){
