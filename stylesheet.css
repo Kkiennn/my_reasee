@@ -201,6 +201,31 @@ body {
 	}
 }
 
+ /* Arrow Button Styles */
+    .arrow-button {
+        font-size: 2em;
+        color: white;
+        text-decoration: none;
+        border: 2px solid white;
+        padding: 10px 20px;
+        border-radius: 55%;
+        display: inline-block;
+        transition: background 1s, transform 1s;
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+        background: #ff85a2;
+        
+    }
+
+
+    
+    .arrow-button:hover {
+        background: white;
+        color: #ff85a2;
+        transform: translateY(10px);
+    }
+
+
+
 .bulb-glow-red {
 	background-image: url('bulb_red.png');
 	-webkit-animation: bulb_glow_red linear 5s;
