@@ -1,6 +1,7 @@
+$('.arrow-button').fadeOut('fast');
 $(window).load(function(){
 	$('.loading').fadeOut('fast');
-	$('.letter').fadeOut('fast');
+	$('.arrow-button').fadeOut('fast');
 	$('.container').fadeIn('fast');
 });
 $('document').ready(function(){
@@ -180,7 +181,7 @@ $('document').ready(function(){
 			if(i==73){
 				$("p:nth-child(72)").fadeOut('slow').promise().done(function () {
 					$('.cake').fadeIn('fast');
-					$('.letter').fadeIn('fast');
+					$('.arrow-button').fadeIn('fast');
 				});l
 				
 			}
