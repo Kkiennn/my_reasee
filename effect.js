@@ -176,9 +176,10 @@ $('document').ready(function(){
 			$("p:nth-child("+i+")").fadeOut('slow').delay(1-00).promise().done(function(){
 			i=i+1;
 			$("p:nth-child("+i+")").fadeIn('slow').delay(2500);
-			if(i==72){
-				$("p:nth-child(71)").fadeOut('slow').promise().done(function () {
+			if(i==73){
+				$("p:nth-child(72)").fadeOut('slow').promise().done(function () {
 					$('.cake').fadeIn('fast');
+					
 				});
 				
 			}
